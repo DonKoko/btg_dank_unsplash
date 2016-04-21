@@ -16,7 +16,7 @@
 
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
-	<link rel="stylesheet" href="css/skin-restaurant-one-page.css" />
+	<link rel="stylesheet" href="css/skin.css" />
 	<link rel="stylesheet" href="css/custom.css" />
 
 	<!--[if lt IE 9]>
@@ -26,7 +26,7 @@
 </head>
 <body class="shop home-page">
 
-	<!-- Side Navigation Menu -->
+	<!-- Side Navigation Menu - MOBILE -->
 	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="scale-in">
 		<div class="side-navigation-scroll-pane">
 			<div class="side-navigation-inner">
@@ -76,8 +76,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="#"><img src="images/restaurant/logo-dark.png" alt="Sartre Logo" /></a>
-									<a href="#"><img src="images/restaurant/logo.png" alt="Sartre Logo" /></a>
+									<a href="#"><img src="images/logo-dark.png" alt="Bridging the Gap Logo" /></a>
+									<a href="#"><img src="images/logo.png" alt="Bridging the Gap Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">
@@ -120,7 +120,6 @@
 			<!-- Content -->
 			<div class="content clearfix">
 
-				<!-- Home -->
 				<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
 					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-parallax-fade-out data-animation="slide" data-scale-under="960">
 						<ul class="tms-slides">
@@ -144,12 +143,11 @@
 										</div>
 									</div>
 								</div>
-								<img data-src="images/restaurant/slider/slide-6-fs.jpg" data-retina src="images/blank.png" alt=""/>
+								<!-- <img data-src="images/restaurant/slider/slide-6-fs.jpg" data-retina src="images/blank.png" alt=""/> -->
 							</li>
 						</ul>
 					</div>
 				</section>
-				<!-- Home End -->
 
 				<section id="concept" class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
 					<div class="row">
@@ -170,23 +168,23 @@
 								</div>
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="images/restaurant/portfolio/grid/no-margins/project-12-square.jpg" alt=""/>
+										<img src="images/grid/top-left.jpg" alt=""/>
 									</div>
 								</div>
 								<div class="grid-item grid-sizer">
 									<div class="thumbnail">
-										<img src="images/restaurant/portfolio/grid/no-margins/project-13-square.jpg" alt=""/>
+										<img src="images/grid/top-right.jpg" alt=""/>
 									</div>
 								</div>
 
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="images/restaurant/portfolio/grid/no-margins/project-14-square.jpg" alt=""/>
+										<img src="images/grid/bottom-left.jpg" alt=""/>
 									</div>
 								</div>
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="images/restaurant/portfolio/grid/no-margins/project-15-square.jpg" alt=""/>
+										<img src="images/grid/bottom-right.jpg" alt=""/>
 									</div>
 								</div>
 							</div>
@@ -194,15 +192,14 @@
 					</div>
 				</section>
 
-
 				<section id="fromArtToBusiness" class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
 					<div class="section-block replicable-content bkg-grey">
 						<div class="row">
 							<div class="column width-6">
 								<div class="thumbnail">
-									<video muted poster="images/btg/1-Anne.png" autoplay loop width="480" height="271">
-										<source type="video/mp4" src="images/barber-shop/slider/Film_1_Anne_final.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/Film_1_Anne_final.webm" />
+									<video muted poster="images/videos_fallback/1-Anne.png" autoplay loop width="480" height="271">
+										<source type="video/mp4" src="videos/Film_1_Anne_final.mp4" />
+										<source type="video/webm" src="videos/Film_1_Anne_final.webm" />
 									</video>
 									<div class="caption-over-outer">
 										<div class="caption-over-inner center color-white">
@@ -233,9 +230,9 @@
 							</div>
 							<div class="column width-6 offset-1 left">
 								<div class="thumbnail">
-									<video muted poster="images/btg/2-Eloy.png" autoplay loop width="480" height="271">
-										<source type="video/mp4" src="images/barber-shop/slider/Film_2_Eloi_final.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/Film_2_Eloi_final.webm" />
+									<video muted poster="images/videos_fallback/2-Eloy.png" autoplay loop width="480" height="271">
+										<source type="video/mp4" src="videos/Film_2_Eloi_final.mp4" />
+										<source type="video/webm" src="videos/Film_2_Eloi_final.webm" />
 									</video>
 									<div class="caption-over-outer">
 										<div class="caption-over-inner center color-white">
@@ -251,14 +248,15 @@
 						</div>
 					</div>
 				</section>
+
 				<section id="exposeYourself" class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
 					<div class="section-block replicable-content bkg-grey">
 						<div class="row">
 							<div class="column width-6">
 								<div class="thumbnail">
-									<video muted poster="images/btg/3-Carina.png" autoplay loop width="480" height="271">
-										<source type="video/mp4" src="images/barber-shop/slider/Film_3_Carina_final.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/Film_3_Carina_final.webm" />
+									<video muted poster="images/videos_fallback/3-Carina.png" autoplay loop width="480" height="271">
+										<source type="video/mp4" src="videos/Film_3_Carina_final.mp4" />
+										<source type="video/webm" src="videos/Film_3_Carina_final.webm" />
 									</video>
 									<div class="caption-over-outer">
 										<div class="caption-over-inner center color-white">
@@ -289,9 +287,9 @@
 							</div>
 							<div class="column width-6 offset-1 left">
 								<div class="thumbnail">
-									<video muted poster="images/btg/4-Frankolin.png" autoplay loop width="480" height="271">
-										<source type="video/mp4" src="images/barber-shop/slider/Film_4_Francolin_final.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/Film_4_Francolin_final.webm" />
+									<video muted poster="images/videos_fallback/4-Frankolin.png" autoplay loop width="480" height="271">
+										<source type="video/mp4" src="videos/Film_4_Francolin_final.mp4" />
+										<source type="video/webm" src="videos/Film_4_Francolin_final.webm" />
 									</video>
 									<div class="caption-over-outer">
 										<div class="caption-over-inner center color-white">
@@ -313,9 +311,9 @@
 						<div class="row">
 							<div class="column width-6">
 								<div class="thumbnail">
-									<video muted poster="images/btg/5-Annelou.png" autoplay loop width="480" height="271">
-										<source type="video/mp4" src="images/barber-shop/slider/Film_5_Annelou_final.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/Film_5_Annelou_final.webm" />
+									<video muted poster="images/videos_fallback/5-Annelou.png" autoplay loop width="480" height="271">
+										<source type="video/mp4" src="videos/Film_5_Annelou_final.mp4" />
+										<source type="video/webm" src="videos/Film_5_Annelou_final.webm" />
 									</video>
 									<div class="caption-over-outer">
 										<div class="caption-over-inner center color-white">
@@ -335,10 +333,9 @@
 						</div>
 					</div>
 				</section>
-				<!-- Profile -->
+
 				<section id="profile">
 
-				<!-- Stat Section 1 -->
 				<section id="book">
 					<div class="section-block replicable-content stats-1 stats-1-1 center color-white">
 						<div class="row">

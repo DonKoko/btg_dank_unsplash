@@ -945,7 +945,7 @@ body,
 .header .v-align-middle > .button:not(.nav-icon):hover,
 .header .dropdown > .button:not(.nav-icon):hover,
 .header .dropdown > .button.active:not(.nav-icon){
-	background-color: #9a9484;
+	background-color: #333333;
 	border-color: transparent;
 	color: #fff;
 }
@@ -1006,7 +1006,7 @@ body,
 }
 .header-background .v-align-middle > .button:not(.nav-icon):hover,
 .header-background .dropdown > .button:not(.nav-icon):hover{
-	background-color: #9a9484;
+	background-color: #545454;
 	border-color: transparent;
 	color: #fff;
 }

@@ -1,2 +1,4 @@
 .bkg-white { background-color: white; }
 .bkg-grey { background-color: #f4f4f4; }
+.header .logo img { max-height: 60px;}
+.header .logo a:hover { opacity: .8 !important; }
